@@ -53,6 +53,7 @@ ul {
 .max-w-prose {
   max-width: 65ch;
 }
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
     rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y))
@@ -94,13 +95,8 @@ a {
   width: fit-content;
 }
 .content-container {
-  width: 70%;
-  max-width: 600px;
-}
-.link-container {
   width: 80%;
   max-width: 600px;
-  padding-top: 80px;
 }
 .title {
   font-family: Smokum, serif;
