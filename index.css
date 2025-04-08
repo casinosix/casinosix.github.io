@@ -1,3 +1,4 @@
+/* Lots of CSS is ripped from Astro-generated stuff. Sue me. */
 body,
 html,
 ol,
@@ -69,10 +70,6 @@ ul {
     .max-w-prose {
         max-width: 65ch;
     }
-}
-
-.transform {
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -173,4 +170,22 @@ a {
 
 .titleshift {
     margin-top: 60%;
+}
+
+.seated-event-venue-name {
+    font-style: italic;
+}
+
+@media (min-width: 768px) {
+    .seated-widget {
+        width: 100%;
+    }
+}
+
+.seated-event-date-cell {
+    font-family: "Courier Prime", monospace;
+}
+
+.seated-event-link {
+    font-family: "Courier Prime", monospace;
 }
